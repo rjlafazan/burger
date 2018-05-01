@@ -15,7 +15,26 @@ var orm = {
 			if(err)throw err;
 			cb(err, result);
 		});
+  },
+  updateOne(): function (table, col, condition, cb) {
+      var colArr = [];
+		for(var key in col) {
+			if(col.hasOwnProperty(key)) {
+				colArr.push(key + '=' + col[key]);
+			}
+
+			var devourString = colArr.toString();
+		}
+
+		var queryString = 'UPDATE ' + table + ' SET ' + devourString + ' WHERE ' + condition;
+
+		connection.query(queryString, condition ,function(err, result){
+			if(err)throw err;
+			cb(err, result);
+		});
+      
   }
+
 };
 
 module.exports = orm;
