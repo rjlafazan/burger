@@ -1,4 +1,4 @@
-# burger
+# Burger
 
 The burger application lets users devour pre-made burgers or add their own burgers to be devoured later or devoured immediately.
 
