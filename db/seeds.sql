@@ -13,5 +13,5 @@ VALUES
 INSERT INTO burgers
     (burger_name, short_description, devoured)
 VALUES
-    ('Burger medalion', '$50 for a one bite burger. The desciprtion makes it sound like the best burger ever, but it will be overcooked and fall short of expectations', true);
+    ('Burger medalion', '$50 for a one bite burger. The description makes it sound like the best burger ever, but it will be overcooked and fall short of expectations.', true);
 
