@@ -1,0 +1,9 @@
+<li>
+    <h4>{{burger_name}}</h4>
+    <p>{{short_description}}</p>
+
+
+    <button class="change-devoured" data-id="{{id}}" data-newDevoured="{{devoured}}" onClick="window.location.reload()">
+        {{#if devoured}}Devoured{{else}}Reset Devour{{/if}}
+    </button>
+</li>
