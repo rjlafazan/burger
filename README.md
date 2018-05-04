@@ -1,6 +1,6 @@
 # Burger
 
-The burger application lets users devour pre-made burgers or add their own burgers to be devoured later or devoured immediately.
+The burger application is a fullstack app that lets users devour pre-made burgers or add their own burgers to be devoured later or devoured immediately.
 
 The app is deployed to Heroku at the following link: 
 
